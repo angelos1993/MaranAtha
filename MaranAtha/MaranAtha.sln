@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaranAtha", "MaranAtha\MaranAtha.csproj", "{1A6D69D2-4CAC-486E-8366-18C5AA8F5B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaramAtha.Tests", "MaramAtha.Tests\MaramAtha.Tests.csproj", "{8E10B8A4-733D-4782-B6F0-591FA72FF10E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1A6D69D2-4CAC-486E-8366-18C5AA8F5B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A6D69D2-4CAC-486E-8366-18C5AA8F5B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A6D69D2-4CAC-486E-8366-18C5AA8F5B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E10B8A4-733D-4782-B6F0-591FA72FF10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E10B8A4-733D-4782-B6F0-591FA72FF10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E10B8A4-733D-4782-B6F0-591FA72FF10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E10B8A4-733D-4782-B6F0-591FA72FF10E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
