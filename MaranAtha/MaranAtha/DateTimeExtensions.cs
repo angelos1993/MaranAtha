@@ -64,11 +64,6 @@ namespace MaranAtha
             return (DateTime.Now.Year - dateTime.Value.Year).ToString();
         }
 
-        public static string ToListBoxDateString(this DateTime dateTime)
-        {
-            return dateTime.ToCustomShortDateString();
-        }
-
         public static string ToCustomShortDateString(this DateTime dateTime)
         {
             return dateTime.ToString("dd / MM / yyyy");
@@ -82,6 +77,11 @@ namespace MaranAtha
         public static string ToCustomFormattedLongDateString(this DateTime dateTime)
         {
             return dateTime.ToString("MMMM dd, yyyy");
+        }
+
+        public static string ToFormattedDateString(this DateTime dateTime, string format)
+        {
+            return dateTime.ToString(format);
         }
     }
 }

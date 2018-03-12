@@ -34,5 +34,35 @@ namespace MaranAtha
                     return listStrings.ToString();
             }
         }
+
+        public static string ToCommaSeperatedString(this IEnumerable<string> enumerableStrings)
+        {
+            return enumerableStrings.ToList().ToCommaSeperatedString();
+        }
+
+        public static string ToCommaSeperatedString(this string[] arrayStrings)
+        {
+            return arrayStrings.ToList().ToCommaSeperatedString();
+        }
+
+        public static string ToCommaSeperatedString(this List<string> listStrings)
+        {
+            return listStrings.ToSeperatedString(", ");
+        }
+
+        public static string ToSeperatedString(this IEnumerable<string> enumerableStrings, string separator)
+        {
+            return enumerableStrings.ToList().ToSeperatedString(separator);
+        }
+
+        public static string ToSeperatedString(this string[] arrayStrings, string separator)
+        {
+            return arrayStrings.ToList().ToSeperatedString(separator);
+        }
+
+        public static string ToSeperatedString(this List<string> listStrings, string separator)
+        {
+            return string.Join(separator, listStrings);
+        }
     }
 }
