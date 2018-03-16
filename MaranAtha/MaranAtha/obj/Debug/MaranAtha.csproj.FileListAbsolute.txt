@@ -1,4 +1,0 @@
-G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\bin\Debug\MaranAtha.dll
-G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\bin\Debug\MaranAtha.pdb
-G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Debug\MaranAtha.dll
-G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Debug\MaranAtha.pdb

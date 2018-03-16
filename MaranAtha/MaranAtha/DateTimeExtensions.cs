@@ -52,11 +52,6 @@ namespace MaranAtha
             return $"{dateTime.ToShortMonthName()} {dateTime.Day}, {dateTime.Year}";
         }
 
-        public static string ToFormattedArabicDate(this DateTime dateTime)
-        {
-            return dateTime.ToString("dd MMMM yyyy", GetCultureInfo("ar-AE"));
-        }
-
         public static string ToAgeFromBirthdate(this DateTime? dateTime)
         {
             if (dateTime == null || dateTime == default(DateTime))

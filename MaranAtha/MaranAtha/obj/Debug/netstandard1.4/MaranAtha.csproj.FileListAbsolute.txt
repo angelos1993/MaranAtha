@@ -1,0 +1,6 @@
+G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\bin\Debug\netstandard1.4\MaranAtha.deps.json
+G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Debug\netstandard1.4\MaranAtha.AssemblyInfo.cs
+G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\bin\Debug\netstandard1.4\MaranAtha.dll
+G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\bin\Debug\netstandard1.4\MaranAtha.pdb
+G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Debug\netstandard1.4\MaranAtha.dll
+G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Debug\netstandard1.4\MaranAtha.pdb
