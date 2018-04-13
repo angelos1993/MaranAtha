@@ -9,7 +9,7 @@ namespace MaranAtha
         /// <summary>
         /// Concatenates the elements of an IEnumerable object, using comma (,) as a separator but 'and' before the last element.
         /// </summary>
-        /// <param name="enumerableStrings">The list that contains the elements to concatenate</param>
+        /// <param name="enumerableStrings">The list that contains the elements to be concatenated</param>
         /// <returns>A string that consists of the elements of values delimited by the comma and 'and' (before the last element). If the passed parameter is an empty list, the method returns System.String.Empty.</returns>
         public static string ToCommaThenAndString(this IEnumerable<string> enumerableStrings)
         {
@@ -17,9 +17,9 @@ namespace MaranAtha
         }
 
         /// <summary>
-        /// Concatenates the elements of an object array, using comma (,) as a separator but 'and' before the last element.
+        /// Concatenates the elements of an array object, using comma (,) as a separator but 'and' before the last element.
         /// </summary>
-        /// <param name="arrayStrings">The array that contains the elements to concatenate</param>
+        /// <param name="arrayStrings">The array that contains the elements to be concatenated</param>
         /// <returns>A string that consists of the elements of values delimited by the comma and 'and' (before the last element). If the passed parameter is an empty array, the method returns System.String.Empty.</returns>
         public static string ToCommaThenAndString(this string[] arrayStrings)
         {
@@ -29,7 +29,7 @@ namespace MaranAtha
         /// <summary>
         /// Concatenates the elements of a List object, using comma (,) as a separator but 'and' before the last element.
         /// </summary>
-        /// <param name="listStrings">The list that contains the elements to concatenate</param>
+        /// <param name="listStrings">The list that contains the elements to be concatenated</param>
         /// <returns>A string that consists of the elements of values delimited by the comma and 'and' (before the last element). If the passed parameter is an empty list, the method returns System.String.Empty.</returns>
         public static string ToCommaThenAndString(this List<string> listStrings)
         {
@@ -50,31 +50,64 @@ namespace MaranAtha
             }
         }
 
+        /// <summary>
+        /// Concatenates the elements of a List object, using comma (,) as a separator then space after each comma.
+        /// </summary>
+        /// <param name="enumerableStrings">The list that contains the elements to be concatenated</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and space. If the passed parameter is an empty list, the method returns System.String.Empty.</returns>
         public static string ToCommaSeperatedString(this IEnumerable<string> enumerableStrings)
         {
             return enumerableStrings.ToList().ToCommaSeperatedString();
         }
 
+        /// <summary>
+        /// Concatenates the elements of an array object, using comma (,) as a separator then space after each comma.
+        /// </summary>
+        /// <param name="arrayStrings">The array that contains the elements to be concatenated</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and space. If the passed parameter is an empty array, the method returns System.String.Empty.</returns>
         public static string ToCommaSeperatedString(this string[] arrayStrings)
         {
             return arrayStrings.ToList().ToCommaSeperatedString();
         }
 
+        /// <summary>
+        /// Concatenates the elements of a list object, using comma (,) as a separator then space after each comma.
+        /// </summary>
+        /// <param name="listStrings">The list that contains the elements to be concatenated</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and space. If the passed parameter is an empty list, the method returns System.String.Empty.</returns>
         public static string ToCommaSeperatedString(this List<string> listStrings)
         {
             return listStrings.ToSeperatedString(", ");
         }
 
+        /// <summary>
+        /// Concatenates the elements of a list object, using the specified separator between each member.
+        /// </summary>
+        /// <param name="enumerableStrings">The list that contains the elements to be concatenated</param>
+        /// <param name="separator">The string to use as a separator.</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and space. If the passed parameter is an empty list, the method returns System.String.Empty.</returns>
         public static string ToSeperatedString(this IEnumerable<string> enumerableStrings, string separator)
         {
             return enumerableStrings.ToList().ToSeperatedString(separator);
         }
 
+        /// <summary>
+        /// Concatenates the elements of an array object, using the specified separator between each member.
+        /// </summary>
+        /// <param name="arrayStrings">The array that contains the elements to be concatenated</param>
+        /// <param name="separator">The string to use as a separator.</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and space. If the passed parameter is an empty array, the method returns System.String.Empty.</returns>
         public static string ToSeperatedString(this string[] arrayStrings, string separator)
         {
             return arrayStrings.ToList().ToSeperatedString(separator);
         }
 
+        /// <summary>
+        /// Concatenates the elements of a list object, using the specified separator between each member.
+        /// </summary>
+        /// <param name="listStrings">The list that contains the elements to be concatenated</param>
+        /// <param name="separator">The string to use as a separator.</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and space. If the passed parameter is an empty list, the method returns System.String.Empty.</returns>
         public static string ToSeperatedString(this List<string> listStrings, string separator)
         {
             return string.Join(separator, listStrings);
