@@ -9,6 +9,7 @@
     <PackageReleaseNotes>Changing the TargetFramework from netstandard1.4 to netstandard1.6
 Adding description for each method at the library
 Solving CollectionExtensions.ToCommaThenAndString() bugs, and it is working properly now.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/angelos1993/MaranAtha</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
