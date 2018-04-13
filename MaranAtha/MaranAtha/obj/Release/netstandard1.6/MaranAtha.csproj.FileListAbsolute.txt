@@ -4,3 +4,4 @@ G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\bin\Release\netstandard1.6\MaranAt
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Release\netstandard1.6\MaranAtha.AssemblyInfo.cs
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Release\netstandard1.6\MaranAtha.dll
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Release\netstandard1.6\MaranAtha.pdb
+G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\obj\Release\netstandard1.6\MaranAtha.csprojResolveAssemblyReference.cache

@@ -46,7 +46,7 @@ namespace MaranAtha
                     for (var i = 0; i < listStrings.Count - 1; i++)
                         resultStringBuilder.Append($"{listStrings[i]}, ");
                     resultStringBuilder.Append($"and {listStrings[listStrings.Count - 1]}");
-                    return listStrings.ToString();
+                    return resultStringBuilder.ToString();
             }
         }
 
