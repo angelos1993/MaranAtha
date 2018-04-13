@@ -6,16 +6,31 @@ namespace MaranAtha
 {
     public static class CollectionExtensions
     {
+        /// <summary>
+        /// Concatenates the elements of an IEnumerable object, using comma (,) as a separator but 'and' before the last element.
+        /// </summary>
+        /// <param name="enumerableStrings">The list that contains the elements to concatenate</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and 'and' (before the last element). If the passed parameter is an empty list, the method returns System.String.Empty.</returns>
         public static string ToCommaThenAndString(this IEnumerable<string> enumerableStrings)
         {
             return enumerableStrings.ToList().ToCommaThenAndString();
         }
 
+        /// <summary>
+        /// Concatenates the elements of an object array, using comma (,) as a separator but 'and' before the last element.
+        /// </summary>
+        /// <param name="arrayStrings">The array that contains the elements to concatenate</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and 'and' (before the last element). If the passed parameter is an empty array, the method returns System.String.Empty.</returns>
         public static string ToCommaThenAndString(this string[] arrayStrings)
         {
             return arrayStrings.ToList().ToCommaThenAndString();
         }
 
+        /// <summary>
+        /// Concatenates the elements of a List object, using comma (,) as a separator but 'and' before the last element.
+        /// </summary>
+        /// <param name="listStrings">The list that contains the elements to concatenate</param>
+        /// <returns>A string that consists of the elements of values delimited by the comma and 'and' (before the last element). If the passed parameter is an empty list, the method returns System.String.Empty.</returns>
         public static string ToCommaThenAndString(this List<string> listStrings)
         {
             if (!listStrings.Any())
