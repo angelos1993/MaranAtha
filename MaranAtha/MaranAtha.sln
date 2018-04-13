@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaramAtha.Tests", "MaramAtha.Tests\MaramAtha.Tests.csproj", "{8E10B8A4-733D-4782-B6F0-591FA72FF10E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaranAtha.Tests", "MaranAtha.Tests\MaranAtha.Tests.csproj", "{8E10B8A4-733D-4782-B6F0-591FA72FF10E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaranAtha", "MaranAtha\MaranAtha.csproj", "{6BCB2287-C2D9-4766-84C2-E43A53B1A4EA}"
 EndProject
