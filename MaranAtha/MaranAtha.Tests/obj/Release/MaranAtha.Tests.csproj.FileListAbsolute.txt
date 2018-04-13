@@ -1,4 +1,3 @@
-G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\obj\Release\MaranAtha.Tests.csprojResolveAssemblyReference.cache
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -10,3 +9,4 @@ G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\bin\Release\Microsoft.Visual
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\obj\Release\MaranAtha.Tests.dll
 G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\obj\Release\MaranAtha.Tests.pdb
+G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha.Tests\obj\Release\MaranAtha.Tests.csprojResolveAssemblyReference.cache

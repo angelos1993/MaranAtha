@@ -3,8 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <Authors>Angelos M Reda</Authors>
-    <Description>MaranAtha contains some extension methods &amp; helpers</Description>
-    <PackageTags>MaranAtha Angelos</PackageTags>
+    <Description>MaranAtha contains some extension methods &amp; helpers for string class and collections (List, array,... etc.)</Description>
+    <PackageTags>MaranAtha Angelos string Collection extension</PackageTags>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Changing the TargetFramework from netstandard1.4 to netstandard1.6
+Adding description for each method at the library
+Solving CollectionExtensions.ToCommaThenAndString() bugs, and it is working properly now.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

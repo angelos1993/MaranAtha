@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v1.6": {},
     ".NETStandard,Version=v1.6/": {
-      "maranatha/1.0.0": {
+      "maranatha/1.1.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
         },
@@ -755,7 +755,7 @@
     }
   },
   "libraries": {
-    "maranatha/1.0.0": {
+    "maranatha/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

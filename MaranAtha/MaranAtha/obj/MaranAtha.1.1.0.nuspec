@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MaranAtha</id>
+    <version>1.1.0</version>
+    <authors>Angelos M Reda</authors>
+    <owners>Angelos M Reda</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MaranAtha contains some extension methods &amp; helpers for string class and collections (List, array,... etc.)</description>
+    <releaseNotes>Changing the TargetFramework from netstandard1.4 to netstandard1.6
+Adding description for each method at the library
+Solving CollectionExtensions.ToCommaThenAndString() bugs, and it is working properly now.</releaseNotes>
+    <tags>MaranAtha Angelos string Collection extension</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.6">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="G:\Angelos\MaranAtha\Repo\MaranAtha\MaranAtha\bin\Release\netstandard1.6\MaranAtha.dll" target="lib\netstandard1.6\MaranAtha.dll" />
+  </files>
+</package>
