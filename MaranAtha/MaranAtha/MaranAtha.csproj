@@ -10,6 +10,7 @@
 Adding description for each method at the library
 Solving CollectionExtensions.ToCommaThenAndString() bugs, and it is working properly now.</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/angelos1993/MaranAtha</PackageProjectUrl>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>
